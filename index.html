@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DON'T LOOK BACK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div id="menu">
+  <h1>DON'T LOOK BACK</h1>
+  <button onclick="newGame()">New Game</button>
+  <button onclick="continueGame()">Continue</button>
+</div>
+
+<div id="loading" class="hidden">
+  <p>Loading...</p>
+</div>
+
+<canvas id="game" width="640" height="480" class="hidden"></canvas>
+
+<script src="game.js"></script>
+</body>
+</html>
