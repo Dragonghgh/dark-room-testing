@@ -1,1 +1,24 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
 
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+canvas {
+  background: #000;
+  display: block;
+  margin: auto;
+}
